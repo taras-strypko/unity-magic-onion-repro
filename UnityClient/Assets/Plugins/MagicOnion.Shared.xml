@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MagicOnion.Shared</name>
+    </assembly>
+    <members>
+        <member name="M:MagicOnion.MetadataExtensions.Get(Grpc.Core.Metadata,System.String,System.Boolean)">
+            <summary>
+            Get metdata entry. If does not exists, return null.
+            </summary>
+        </member>
+        <member name="M:MagicOnion.MetadataExtensions.GetValue(Grpc.Core.Metadata,System.String,System.Boolean)">
+            <summary>
+            Get metdata string value. If does not exists, return null.
+            </summary>
+        </member>
+        <member name="T:MagicOnion.Utils.ILGeneratorExtensions">
+            <summary>
+            Provides optimized generation code and helpers.
+            </summary>
+        </member>
+        <member name="M:MagicOnion.Utils.ILGeneratorExtensions.EmitLdloc(System.Reflection.Emit.ILGenerator,System.Int32)">
+            <summary>
+            Loads the local variable at a specific index onto the evaluation stack.
+            </summary>
+        </member>
+        <member name="M:MagicOnion.Utils.ILGeneratorExtensions.EmitStloc(System.Reflection.Emit.ILGenerator,System.Int32)">
+            <summary>
+            Pops the current value from the top of the evaluation stack and stores it in a the local variable list at a specified index.
+            </summary>
+        </member>
+        <member name="M:MagicOnion.Utils.ILGeneratorExtensions.EmitLdloca(System.Reflection.Emit.ILGenerator,System.Int32)">
+            <summary>
+            Loads the address of the local variable at a specific index onto the evaluation statck.
+            </summary>
+        </member>
+        <member name="M:MagicOnion.Utils.ILGeneratorExtensions.EmitLdc_I4(System.Reflection.Emit.ILGenerator,System.Int32)">
+            <summary>
+            Pushes a supplied value of type int32 onto the evaluation stack as an int32.
+            </summary>
+        </member>
+        <member name="M:MagicOnion.Utils.ILGeneratorExtensions.EmitPop(System.Reflection.Emit.ILGenerator,System.Int32)">
+            <summary>
+            Helper for Pop op.
+            </summary>
+        </member>
+    </members>
+</doc>
