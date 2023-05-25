@@ -1,0 +1,20 @@
+# Ignore everything
+/*
+Assets/BuildReports/
+Assets/BuildReports.meta
+GoogleSheetsTool/obj/
+GoogleSheetsTool/.idea/
+ProjectSettings/AndroidLogcatSettings.asset
+# But not these files and directories...
+!.gitignore
+!.gitattributes
+!.editorconfig
+!Assets/
+!DebugKeystore/
+!Documentation/
+!Packages/
+!ProjectSettings/
+!GoogleSheetsTool/
+!Plugins/
+.DS_Store
+Assets/Plugins/Grpc.Core/runtimes/ios
